@@ -32,4 +32,6 @@ jobs:
           add: "dist/*"
           message: "chore: Update snake animation"
           new_branch: main
-          push: true  # Ensure it pushes the changes
+          push: true
+          author_name: "Bramha Deshmukh"        # Replace with your GitHub display name
+          author_email: "bramhadeshmukh17@gmail.com"  # Replace with the email associated with your GitHub account
