@@ -14,7 +14,6 @@ I'm currently pursuing a Master's in Computer Applications (MCA) with a strong f
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=bramha-deshmukh17&theme=github_dark_dimmed&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
 # 📈 Contribution
-![Snake Animation](https://github.com/bramha-deshmukh17/bramha-deshmukh17/blob/main/dist/github-snake.svg)
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bramha-deshmukh17/bramha-deshmukh17/main/dist/github-snake-dark.svg?palette=github-dark" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/bramha-deshmukh17/bramha-deshmukh17/main/dist/github-snake.svg" />
