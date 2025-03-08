@@ -28,3 +28,5 @@ jobs:
           add: "dist/*"
           message: "chore: Update snake animation"
           branch: main
+          push: true  # Ensure it pushes the changes
+
