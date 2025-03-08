@@ -6,31 +6,31 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write  # Grant write access to push changes
+  contents: write  # Ensure GitHub Actions can push changes
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v3
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}  # Ensure the token is used
+      - uses: actions/checkout@v3
 
       - name: Generate Snake Animation
         uses: Platane/snk@v3
+        id: snake-gif
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
-            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+            dist/github-contribution-grid-snake.gif
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Commit and Push Changes to Main
-        uses: EndBug/add-and-commit@v9
+      - name: Push Changes
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          add: "dist/*"
-          message: "chore: Update snake animation"
-          branch: main
-          push: true  # Ensure it pushes the changes
+          target_branch: output  # Or change to 'main' if preferred
+          build_dir: dist
+          commit_message: "chore: Update snake animations"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
