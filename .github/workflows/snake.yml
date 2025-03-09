@@ -33,5 +33,5 @@ jobs:
           message: "chore: Update snake animation"
           new_branch: main
           push: true
-          author_name: "Bramha Deshmukh"        # Replace with your GitHub display name
+          author_name: "bramha-deshmukh17"        # Replace with your GitHub display name
           author_email: "bramhadeshmukh17@gmail.com"  # Replace with the email associated with your GitHub account
