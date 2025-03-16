@@ -28,5 +28,10 @@ jobs:
       - name: Commit and Push Changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: Update snake animation"
+          commit_message: "[bot] chore: Update snake animation"
           branch: main
+          commit_user_name: "Bot Venom"
+          commit_user_email: "bot@example.com"
+          commit_author: "Bot Name <bot@example.com>"
+          token: ${{ secrets.BOT_TOKEN }}
+
