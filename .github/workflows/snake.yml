@@ -19,7 +19,7 @@ jobs:
       - name: Generate Snake Animation
         uses: Platane/snk@v3
         with:
-          github_user_name: bot
+          github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
@@ -30,8 +30,7 @@ jobs:
         with:
           commit_message: "[bot] chore: Update snake animation [skip ci]"
           branch: main
-          commit_user_name: "GitHub Actions Bot"
-          commit_user_email: "41898282+github-actions[bot]@users.noreply.github.com"
-          commit_author: "GitHub Actions Bot <41898282+github-actions[bot]@users.noreply.github.com>"
+          commit_user_name: "${{ github.actor }}"
+          commit_user_email: "${{ secrets.GIT_USER_EMAIL }}" 
 
 
