@@ -30,5 +30,3 @@ jobs:
         with:
           commit_message: "chore: Update snake animation"
           branch: main
-          commit_user_name: "${{ github.actor }}"
-          commit_user_email: "${{ secrets.GIT_USER_EMAIL }}"  # Ensure this matches your GitHub email
