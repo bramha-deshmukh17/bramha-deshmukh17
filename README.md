@@ -1,5 +1,5 @@
 # 💫 About Me:
-I'm currently pursuing a Master's in Computer Applications (MCA) with a strong focus on full-stack development. I specialize in the MERN stack (MongoDB, Express, React, Node.js) and Flutter for building dynamic mobile applications. My technical expertise encompasses both SQL and NoSQL databases, including hands-on experience with MongoDB and PostgreSQL, ensuring robust and scalable backend solutions. Additionally, I've worked with PHP, which has further enriched my web development skills.
+I'm fresher with Master's in Computer Applications (MCA). I  have strong focus on full-stack development, I specialize in the MERN stack (MongoDB, Express, React, Node.js) and Flutter for building dynamic mobile applications. My technical expertise encompasses both SQL and NoSQL databases, including hands-on experience with MongoDB and PostgreSQL, ensuring robust and scalable backend solutions. Additionally, I've worked with PHP, which has further enriched my web development skills.
 
 
 ## 🌐 Socials:
