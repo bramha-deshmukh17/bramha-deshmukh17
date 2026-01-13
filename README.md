@@ -13,12 +13,14 @@ I'm fresher with Master's in Computer Applications (MCA). I  have strong focus o
 ![](https://nirzak-streak-stats.vercel.app/?user=bramha-deshmukh17&theme=github_dark_dimmed&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=bramha-deshmukh17&theme=github_dark_dimmed&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
+
 # 📈 Contribution
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bramha-deshmukh17/bramha-deshmukh17/output/github-snake-dark.svg?palette=github-dark" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/bramha-deshmukh17/bramha-deshmukh17/output/github-snake.svg" />
-  <img alt="Snake Animation" src="https://raw.githubusercontent.com/bramha-deshmukh17/bramha-deshmukh17/output/github-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bramha-deshmukh17/snake_animation/main/dist/github-snake-dark.svg?palette=github-dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/bramha-deshmukh17/snake_animation/main/dist/github-snake.svg" />
+  <img alt="Snake Animation" src="https://raw.githubusercontent.com/bramha-deshmukh17/snake_animation/main/dist/github-snake.svg" />
 </picture>
+
 
 
 
